@@ -69,17 +69,17 @@
 		<legend>파일 다운로드</legend>	
 		<table border="1"> 
 			<tr>
-				<td><img src= "chapter09_file/fileRepository/testImg1.PNG" width="70" height="70"></td>
+				<td><img src= "fileImg/testImg1.PNG" width="70" height="70"></td>
 				<td>이미지1</td>
 				<td><a href="download?fileName=testImg1.PNG">다운로드</a></td>
 			</tr>
 			<tr>
-				<td><img src ="chapter09_file/fileRepository/testImg2.png" width="70" height="70"></td>
+				<td><img src ="fileImg/testImg2.png" width="70" height="70"></td>
 				<td>이미지2</td>
 				<td><a href="download?fileName=testImg2.png">다운로드</a></td>
 			</tr>
 			<tr>
-				<td><img src ="chapter09_file/fileRepository/testImg3.jpg" width="70" height="70"></td>
+				<td><img src ="fileImg/testImg3.jpg" width="70" height="70"></td>
 				<td>이미지3</td>
 				<td><a href="download?fileName=testImg3.jpg">다운로드</a></td>
 			</tr>
