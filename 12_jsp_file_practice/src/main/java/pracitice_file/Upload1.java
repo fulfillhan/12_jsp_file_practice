@@ -26,11 +26,11 @@ public class Upload1 extends HttpServlet {
 		
 		MultipartRequest multipartRequest = new MultipartRequest(request,FileConfig.FILE_REPOSITORY_PATH,1024*1024 *100, "utf-8");
 	
-		// 질문! <String>
-		Enumeration<String> files = multipartRequest.getFileNames();
+		// 질문! <String> -> <?>상관은 없다.
+		Enumeration<?> files = multipartRequest.getFileNames();
 		
 		if(files.hasMoreElements()) {
-			String element = files.nextElement();
+			String element =(String) files.nextElement();
 			
 			multipartRequest.getOriginalFileName(element);
 			multipartRequest.getFilesystemName(element);
